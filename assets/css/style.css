@@ -1,0 +1,248 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+  background-image: url("/assets/img/sfondo.png");
+  background-repeat: repeat-y;
+  background-position: 50% -20%;
+  font-family: "Poppins", sans-serif;
+}
+
+hr {
+  display: none;
+}
+
+/* HEADER */
+
+header {
+  background: rgb(4, 106, 135);
+  background: linear-gradient(
+    18deg,
+    rgba(4, 106, 135, 1) 30%,
+    rgba(6, 158, 202, 1) 100%
+  );
+  margin: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  -moz-box-shadow: 0 0 7px #333333;
+  -webkit-box-shadow:0 0 7px #333333;
+  box-shadow: 0 0 7px #333333;
+  
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-logo {
+  padding-bottom: 1em;
+}
+
+.header-logo img {
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+nav ul li:before {
+  content: "⇒";
+}
+
+nav ul li:after {
+  content: "⇐";
+}
+
+nav ul li {
+  padding: 0.2em 0;
+}
+
+nav ul {
+  padding-bottom: 2em;
+}
+
+/* MAIN */
+
+main {
+  margin: 1em 1em 0 1em;
+  background-color: white;
+  box-shadow: 0 7px 7px #333333;
+
+}
+
+article {
+  padding: 0 1em;
+  line-height: 1.5em;
+}
+
+main p {
+  padding: 1em 0;
+}
+
+h1,
+h2 {
+  font-size: 2em;
+  padding: 1em 0;
+  line-height: 1.5em;
+}
+
+h1 + p {
+  color: gray;
+  padding-bottom: 1.5em;
+}
+
+strong {
+  color: #a23088;
+}
+
+main ul li::before {
+  content: "•";
+  padding-right: 0.5em;
+}
+
+main ul li {
+  padding-left: 8px;
+}
+
+code {
+  border: 1px solid grey;
+  border-radius: 10%;
+  background-color: rgb(216, 216, 216);
+}
+
+ol {
+  padding-left: 2em;
+}
+
+table,
+th,
+td {
+  border: 0.1em solid rgb(184, 184, 184, 0.2);
+  padding: 0.5em;
+  text-align: center;
+}
+
+caption {
+  font-style: italic;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+th {
+  background-color: #4768c1;
+  color: white;
+}
+
+article p a {
+  color: 
+  #07a7c0;
+}
+
+.yt-embed {
+  text-align: center;
+  padding: 1em 0;
+}
+
+iframe {
+  border-radius: 10%;
+  /* width: 480px;
+    height:272px; */
+}
+
+aside div,
+section {
+  background-color: gainsboro;
+}
+
+section h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section p {
+  padding: 0 1em 1em 1em;
+}
+
+form {
+  text-align: center;
+}
+
+input[type="email"] {
+  margin: 1em 0.2em 1em 1em;
+  height: 2em;
+  border: none;
+  border-bottom: 0.1em dashed;
+}
+
+button {
+  border: none;
+  height: 2em;
+  background-color: #3f6aca;
+  color: white;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+aside {
+  background-color: white;
+  margin: 0 1em 1em 1em;
+  box-shadow: 0 7px 7px #333333;
+
+}
+
+aside h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+aside div {
+  margin: 0 1em 1em 1em;
+  padding: 1em;
+}
+
+aside a {
+  color: 
+  #07a7c0;
+}
+
+aside div p:last-child {
+  text-align: right;
+}
+/* FOOTER */
+
+footer {
+  background: rgb(50, 53, 54);
+  background: linear-gradient(
+    0deg,
+    rgba(50, 53, 54, 1) 15%,
+    rgba(3, 85, 102, 1) 100%
+  );
+  color: white;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 0 7px 7px #333333;
+
+}
+
+footer p:first-child {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+address {
+  text-align: center;
+}
+
+footer a {
+  color: #f90ded;
+}
